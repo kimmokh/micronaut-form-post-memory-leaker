@@ -32,3 +32,4 @@ out/
 
 
 !gradle-wrapper.jar
+!error.log

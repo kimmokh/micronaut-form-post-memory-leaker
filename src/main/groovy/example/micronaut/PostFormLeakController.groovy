@@ -23,7 +23,7 @@ class PostFormLeakController {
     @Post(value = "/create-form-no-body", consumes = MediaType.APPLICATION_FORM_URLENCODED)
     HttpStatus createUrlEncodedNoBody() {
         log.info "createUrlEncoded, no body"
-        return HttpStatus.OK
+        return HttpStatus.FORBIDDEN
     }
 
 
