@@ -1,0 +1,11 @@
+version: "2.4"
+
+services:
+    memory-leaker:
+        image: kimmokh/micronaut-form-post:latest
+        container_name: micronaut-form-post
+        environment:
+            - "JAVA_OPTS=-Xmx35m -Dio.netty.leakDetection.level=paranoid"
+        ports:
+            - 8090:8090
+        mem_limit: 150M
