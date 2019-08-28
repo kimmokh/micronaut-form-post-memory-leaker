@@ -1,7 +1,7 @@
-# Micronaut 1.2.0 / PoC of memory leak 
+# Micronaut 1.2.0 / PoC of a memory leak 
 
 This application reproduces a memory leak when controller's POST method handler does not have @Body as a parameter.
-The application is run as a JDK11 Docker-container, `io.netty.leakDetection.level` is set to `paranoid`. 
+The application is run as a JDK11 Docker-container, `io.netty.leakDetection.level` set to `paranoid`. 
 
 ## How to reproduce
 
