@@ -33,9 +33,9 @@ micronaut-form-post | 09:56:05.860 INFO  e.micronaut.PostFormLeakController - cr
 ```
 
 
-Run script `post_form_data_ok.sh` 
+Run script `post_form_data_leak.sh` 
 ```
-./scripts/post_form_data_ok.sh
+./scripts/post_form_data_leak.sh
 ```
 
 This should reproduce following output:
